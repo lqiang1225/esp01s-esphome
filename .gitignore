@@ -1,0 +1,26 @@
+﻿# Build artifacts
+.esphome/
+build/
+.pioenvs/
+.pio/
+sdkconfig
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Credentials (contains WiFi passwords & API keys)
+esp01s_tcrt5000/secrets.yaml
+
+# Temporary files
+*.py
+*.json
+*.bat
+!esp01s_tcrt5000/.gitignore
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
